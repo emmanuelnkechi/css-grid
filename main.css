@@ -70,9 +70,6 @@ margin-right: 3rem;
         display: grid;
         grid-template-columns: repeat(19, auto);
         grid-gap: 0.2rem;
-        height: 400px;
-        justify-content: center;
-        align-content: center;
     }
     section{
         padding: 0.1rem 0.1rem 0rem 0.1rem;
