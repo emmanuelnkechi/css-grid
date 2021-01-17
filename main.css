@@ -62,22 +62,29 @@ margin-right: 3rem;
 
 /* for mobile */
 @media screen and (min-width: 320px) and (max-width: 768px){
+    *, html, body{
+        padding: 0;
+        margin: 0;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: repeat(19, auto);
-        grid-gap: 0.3rem;
+        grid-gap: 0.2rem;
+        height: 400px;
+        justify-content: center;
+        align-content: center;
     }
     section{
-        padding: 0.3rem 0.2rem 0.5rem 0.2rem;
+        padding: 0.1rem 0.1rem 0rem 0.1rem;
     }
     .grid-item h1{
         padding: 0rem 0.1rem 0.1rem 0.1rem;
         text-align: center;
-        font-size: 0.3rem;
+        font-size: 0.2rem;
     }
     .grid-item p{
         padding: 0.1rem;
-        font-size: 0.3rem;
+        font-size: 0.2rem;
     }
     .period, .Group-title{
         margin-right: 0;
@@ -85,15 +92,15 @@ margin-right: 3rem;
     .period{
             text-align: center;
             align-self: center;
-            font-size: 0.3rem;
+            font-size: 0.2rem;
     }
     div.Group{
             text-align: center;
-            font-size: 0.3rem;
+            font-size: 0.2rem;
             align-self: center;
     }
     .Group-title{
-        font-size: 0.4rem; 
+        font-size: 0.1rem !important; 
     }
     .grid-container{
         display: grid;
